@@ -18,7 +18,7 @@ def forxx(self, **kwargs):
     {lambda: forx
         .type(forxwhileTrue)
         .value(**self.kwargs)
-        .trigger(self.boolean=False)
+        .trigger(**self.boolean=False)
     }
 
 forxx.run(sys.argv[1:])
