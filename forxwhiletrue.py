@@ -10,9 +10,10 @@ class forxwhileTrue:
 class forx(forxwhileTrue):
     def __init__(self):
         super(forx, self).__init__()
-
-{lambda: forx
-    .type(forxwhileTrue)
-    .value(sys.argv[1])
-    .trigger(False)
-}
+def forxx(self, kwargs):
+    self.kwargs = kwargs
+    {lambda: forx
+        .type(forxwhileTrue)
+        .value(**self.kwargs)
+        .trigger(False)
+    }
